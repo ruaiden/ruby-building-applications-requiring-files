@@ -1,6 +1,7 @@
 # Something is missing here
+require '../lib/plant.rb'
 
-class Garden
+class Garden < Plant
   attr_accessor :name
 
   def initialize(name:)
